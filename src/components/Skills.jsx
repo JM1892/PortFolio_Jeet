@@ -23,14 +23,14 @@ export default function () {
         <div className='grid place-items-center h-auto mx-5'>
             <h2 className='bg-clip-text text-transparent bg-gradient-to-br from-red-500 to-pink-500 text-4xl my-2 font-bold hover:border-b-2 hover:border-violet-500 rounded-xl px-2 py-1 shadow-xl hover:shadow-violet-500'>Skills</h2>
             <div>
-                <div className='md:inline-flex md:justify-between md:items-center gap-24 mx-3'>
-                    <div className='text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-orange-500 hover:bg-orange-300 hover:shadow-orange-500'><img className='w-10 mx-3' src={html} alt="" /></div>
-                    <div className='text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-blue-500 hover:bg-blue-300 hover:shadow-blue-500'><img className='w-10 mx-3' src={css} alt="" /></div>
-                    <div className='text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-yellow-500 hover:bg-yellow-200 hover:shadow-yellow-500'><img className='w-10 mx-3' src={js} alt="" /></div>
-                    <div className='text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-sky-500 hover:bg-sky-300 hover:shadow-sky-500'><img className='w-10 mx-3' src={react} alt="" /></div>
-                    <div className='text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-sky-500 hover:bg-sky-300 hover:shadow-sky-500'><img className='w-10 mx-3' src={tailwind} alt="" /></div>
-                    <div className='text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-violet-500 hover:bg-violet-300 hover:shadow-violet-500'><img className='w-10 mx-3' src={boot} alt="" /></div>
-                    <div className='text-center my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-violet-500 hover:bg-violet-300 hover:shadow-violet-500'><img className='w-10 mx-3' src={git} alt="" /></div>
+                <div className='sm:inline-flex flex-grow md:justify-between md:items-center gap-24 mx-3'>
+                    <div className='text-center inline-flex sm:mx-5 md:mx-2 my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-orange-500 hover:bg-orange-300 hover:shadow-orange-500'><img className='w-10 mx-3' src={html} alt="" /></div>
+                    <div className='text-center inline-flex sm:mx-5 md:mx-2 my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-blue-500 hover:bg-blue-300 hover:shadow-blue-500'><img className='w-10 mx-3' src={css} alt="" /></div>
+                    <div className='text-center inline-flex sm:mx-5 md:mx-2 my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-yellow-500 hover:bg-yellow-200 hover:shadow-yellow-500'><img className='w-10 mx-3' src={js} alt="" /></div>
+                    <div className='text-center inline-flex sm:mx-5 md:mx-2 my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-sky-500 hover:bg-sky-300 hover:shadow-sky-500'><img className='w-10 mx-3' src={react} alt="" /></div>
+                    <div className='text-center inline-flex sm:mx-5 md:mx-2 my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-sky-500 hover:bg-sky-300 hover:shadow-sky-500'><img className='w-10 mx-3' src={tailwind} alt="" /></div>
+                    <div className='text-center inline-flex sm:mx-5 md:mx-2 my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-violet-500 hover:bg-violet-300 hover:shadow-violet-500'><img className='w-10 mx-3' src={boot} alt="" /></div>
+                    <div className='text-center inline-flex sm:mx-5 md:mx-2 my-2 backdrop-blur-sm bg-white/50 p-5 rounded-xl shadow-xl border-b-2 border-violet-500 hover:bg-violet-300 hover:shadow-violet-500'><img className='w-10 mx-3' src={git} alt="" /></div>
                 </div>
                 <div className='grid place-item-center h-auto px-2 py-1 my-2 text-center'>
                     <div className='backdrop-blur-sm shadow-xl bg-white/50 rounded-xl'>

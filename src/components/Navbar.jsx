@@ -10,7 +10,7 @@ export default function Navbar() {
 
     
   return (
-    <div className='text-4xl mx-24 my-8 bg-clip-text text-transparent bg-gradient-to-l from-blue-500 to-pink-500 font-bold'>
+    <div className='text-4xl md:mx-24 mx-6 my-5 bg-clip-text text-transparent bg-gradient-to-l from-blue-500 to-pink-500 font-bold'>
       <div className='flex justify-between items-center'>
         <div>
             <label>Port<span className='bg-clip-text text-transparent bg-gradient-to-br from-pink-500 to-yellow-500'>Folio</span>.</label>
