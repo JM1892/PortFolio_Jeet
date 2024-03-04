@@ -12,7 +12,7 @@ export default function () {
   return (
     <div>
       <div className='bg-gradient-to-br from-green-500 to-cyan-500 h-auto mx-4 rounded-xl my-4'>
-            <div className='justify-between items-start p-24'>
+            <div className='justify-between items-center p-auto mx-4 my-4'>
             <div className='backdrop-blur-sm shadow-xl bg-white/50 text-center rounded-xl my-3'>
                         <div className='py-2'>
                         <h2 className='bg-clip-text text-transparent bg-gradient-to-b from-blue-500 to-red-500 text-3xl font-bold  rounded-xl'>About Me</h2>
