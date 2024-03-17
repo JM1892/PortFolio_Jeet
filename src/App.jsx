@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Skills from './components/Skills'
@@ -10,8 +11,24 @@ import Project from './components/Project'
 function App() {
   const [count, setCount] = useState(0)
 
+  function MyComponent () {
+    const location = useLocation();
+
+    const currentPath = location.pathname;
+  }
+
   return (
     <>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/Home' element={<Home/>} />
+        <Route path='/Skills' element={<Skills/>} />
+        <Route path='/Contact' element={<Contact/>} />
+        <Route path='/Project' element={<Project/>} />
+        <Route path='/Footer' element={<Footer/>} />
+      </Routes>
+    </BrowserRouter>
+
     <div className='App'>
       <Navbar/>
       <Home/>
@@ -20,8 +37,8 @@ function App() {
       <Contact/>
       <Footer/>
     </div>
-     
     </>
+    
   )
 }
 
