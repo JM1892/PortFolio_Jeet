@@ -20,7 +20,7 @@ export default function Project() {
             <div className=' bg-white/10 rounded-2xl px-2 py-1 h-auto'>
                 <header className='text-3xl font-bold italic text-start mx-8 text-white'>Project-2 Design A PortFolio in ReactJS </header>
                 <section className='my-4 md:flex flex-grow justify-between items-center'>
-                    <p className='italic font-bold mx-6 text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti optio neque ipsam saepe alias, est aperiam fuga consequatur autem aspernatur ipsa possimus fugiat minima suscipit perspiciatis beatae, illo delectus! Cum?</p>
+                    <p className='italic font-bold mx-6 text-white'>This is the Make a personal Portfolio Web page to practice of the Reactjs and Tailwindcss and other concept of the reactjs</p>
                     <img className=' shadow-2xl shadow-black rounded-3xl md:w-[600px] md:h-[300px]' src={Pr_2}/>
                 </section>
             </div>
