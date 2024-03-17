@@ -11,7 +11,7 @@ export default function Project() {
                 <header className='text-3xl font-bold italic text-right mx-8 text-white'>Project-1 Design A Figma Design Using TailwindCSS</header>
                 <section className='my-4  md:flex flex-grow justify-between items-center'>
                     <img className=' shadow-2xl shadow-black rounded-3xl md:w-[600px] md:h-[300px]' src={Pr_1}/>
-                    <p className='italic py-4 font-bold mx-6 text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti optio neque ipsam saepe alias, est aperiam fuga consequatur autem aspernatur ipsa possimus fugiat minima suscipit perspiciatis beatae, illo delectus! Cum?</p>
+                    <p className='italic py-4 font-bold mx-6 text-white'>This is the Design to select from figma and practice of tailwindcss property how they work.</p>
                 </section>
                 </div>
             </div>
