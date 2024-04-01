@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Skills from './components/Skills'
@@ -9,14 +9,6 @@ import Footer from './components/Footer'
 import Project from './components/Project'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  function MyComponent () {
-    const location = useLocation();
-
-    const currentPath = location.pathname;
-  }
-
   return (
     <>
     <BrowserRouter>
@@ -41,5 +33,6 @@ function App() {
     
   )
 }
+
 
 export default App
